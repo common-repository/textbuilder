@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "textbuilder/blockname",
+  "title": "TextBuilder",
+  "category": "text",
+  "parent": [ "core/group" ],
+  "icon": "screenoptions",
+  "description": "Shows warning, error or success notices...",
+  "keywords": [ "alert", "message" ],
+  "version": "1.0.0",
+  "textdomain": "textbuilder",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "align": {
+      "type": "string",
+      "default": "none"
+    }
+  },
+  "editorScript": "file:./index.bundle.js",
+  "editorStyle": "file:./editor.bundle.css",
+  "style": "file:./style.bundle.css"
+}

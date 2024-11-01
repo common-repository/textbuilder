@@ -1,0 +1,1 @@
+{"version":3,"file":"editor.bundle.css","mappings":";;;AAAA;EACE;ACCF,C","sources":["webpack:///./blocks/first-block/editor.scss","webpack:///./editor.scss"],"sourcesContent":["span.wp-block-myblockname {\n  background: green !important;\n}","span.wp-block-myblockname {\n  background: green !important;\n}"],"names":[],"sourceRoot":""}
